@@ -1,0 +1,15 @@
+:root {
+    --size: 500px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid{
+    height: var(--size);
+    width: var(--size);
+    display: flex;
+    flex-wrap: wrap;
+}

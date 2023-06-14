@@ -1,4 +1,4 @@
-const canvasLength = 1000;
+const canvasLength = 500;
 
 function gridGenerator() {
     var gridLength = prompt("Type in grid size (Ex: 16 => 16 x 16)");
@@ -12,4 +12,5 @@ function gridGenerator() {
         document.getElementById("grid").appendChild(div);
     }
 }
+gridGenerator();
 
