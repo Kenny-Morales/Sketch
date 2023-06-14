@@ -6,9 +6,9 @@ function userGridLength() {
 }
 
 function sizeOfDivs() {
+    gridLength = userGridLength();
     divSize = canvasLength / gridLength;
     return divSize;
 }
-
 
 
