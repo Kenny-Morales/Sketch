@@ -17,4 +17,14 @@ function numOfDivs() {
     return (divNum);
 }
 
+function gridGenerator() {
+    divNum = numOfDivs();
+    divSize = sizeOfDivs();
+    for (i = 0; i < divNum; i++) {
+    var div = document.createElement("div");
+    div.style.width = divSize + "px";
+    div.style.height = divSize + "px";
+    document.getElementById("grid").appendChild(div);
+    };
+}
 
