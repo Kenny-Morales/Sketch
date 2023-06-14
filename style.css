@@ -2,6 +2,7 @@
     --size: 500px;
 }
 body {
+    background-color: gainsboro;
     display: flex;
     justify-content: center;
     align-items: center;
