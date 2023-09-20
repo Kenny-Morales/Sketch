@@ -2,7 +2,7 @@
 
 A simple web-based grid generator that allows users to create customizable grids and interact with them.
 
-![Grid Generator Screenshot](path-to-your-screenshot.png) <!-- Replace with the actual path to your screenshot -->
+Website: https://knnymrls.github.io/Etch-Sketch/
 
 ## Features
 
